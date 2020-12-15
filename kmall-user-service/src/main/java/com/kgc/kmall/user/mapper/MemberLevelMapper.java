@@ -4,6 +4,7 @@ import com.kgc.kmall.bean.MemberLevel;
 import com.kgc.kmall.bean.MemberLevelExample;
 import org.apache.ibatis.annotations.Param;
 
+
 import java.util.List;
 
 public interface MemberLevelMapper {

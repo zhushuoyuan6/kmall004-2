@@ -11,7 +11,7 @@ import java.util.List;
 @SpringBootTest
 class KmallUserServiceApplicationTests {
 	@Resource
-    MemberService memberService;
+	MemberService memberService;
 
 	@Test
 	void contextLoads() {

@@ -6,9 +6,9 @@ import com.kgc.kmall.user.mapper.MemberMapper;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 
+
 import javax.annotation.Resource;
 import java.util.List;
-
 @Component
 @Service
 public class MemberServiceImpl implements MemberService {
