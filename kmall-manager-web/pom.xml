@@ -8,9 +8,9 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.kgc.kmall</groupId>
-	<artifactId>kmall-user-web</artifactId>
+	<artifactId>kmall-manager-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kmall-user-web</name>
+	<name>kmall-manager-web</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -18,6 +18,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.kgc.kmall</groupId>
+			<artifactId>kmall-common-util</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>com.kgc.kmall</groupId>
 			<artifactId>kmall-api</artifactId>
@@ -29,7 +34,6 @@
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
